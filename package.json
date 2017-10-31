@@ -1,0 +1,30 @@
+{
+  "name": "listr-work-queue",
+  "version": "1.0.0",
+  "description": "Concurrent work queue for Listr",
+  "author": "Thumbsup",
+  "license": "MIT",
+  "keywords": [
+    "listr",
+    "task",
+    "worker",
+    "queue"
+  ],
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo No unit tests"
+  },
+  "dependencies": {
+    "async": "^2.5.0",
+    "zen-observable": "^0.6.0"
+  },
+  "devDependencies": {
+    "lodash": "^4.17.4"
+  },
+  "peerDependencies": {
+    "listr": "^0.13.0"
+  }
+}
