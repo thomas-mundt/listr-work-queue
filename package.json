@@ -15,14 +15,16 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo No unit tests"
+    "test": "mocha"
   },
   "dependencies": {
     "async": "^2.5.0",
     "zen-observable": "^0.6.0"
   },
   "devDependencies": {
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.4",
+    "mocha": "^5.2.0",
+    "listr": "^0.13.0"
   },
   "peerDependencies": {
     "listr": "^0.13.0"
