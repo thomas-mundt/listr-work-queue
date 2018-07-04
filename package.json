@@ -1,5 +1,5 @@
 {
-  "name": "listr-work-queue",
+  "name": "@thumbsup/listr-work-queue",
   "version": "1.0.0",
   "description": "Concurrent work queue for Listr",
   "author": "Thumbsup",
